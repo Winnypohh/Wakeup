@@ -1,9 +1,3 @@
-Player must to add his name.
-Player must add his age and player needs to be over +18.
-Player must read all the text to play and get to the End.
-Player must add right answer to input box for play.
-Any wrong answer will take player to back to start the game.
-Player must make correct full answers ( yes, left, guest bedroom, ...).
-Any wrong spelling or short "y" in answer input will kick player out of game.
+
 
 
