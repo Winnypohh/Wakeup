@@ -55,7 +55,8 @@ def second_floor_coridor():
 # player choices
     if answer == "yes":
         # wrong choice start new game
-        play_again(" Freddy got you!! ")
+        print(" Freddy got you!! ")
+        play_again()
     elif answer == "no":
         # player is pass to next room, guest_room
         guest_room()
@@ -72,11 +73,11 @@ def guest_room():
     print(" Thank God I didn't go to mom's room.")
     print(" Maybe Freddy got here cornered?")
     print(" I need to help her.")
-    print("\n Are you taking? (bedroom or stairs)")
+    print("\n Are you taking? (guest bedroom or stairs)")
 # take input for player answer
     answer = input("# ")
 # player choices
-    if answer == "bedroom":
+    if answer == "guest bedroom":
         print("\n You got mom and she can run out to be safe. Good job.")
 # Takes player to lobby
         lobby()
@@ -308,7 +309,7 @@ def start():
     # some text
     print("\n WAKE UP OR FREDDY WILL HUNT YOU!!!")
     print("\n One day coming from school we called out Freddy, ")
-    print("with my friends.")
+    print(" with my friends.")
     print(" I think he heard us calling.")
     print(" When I walked home, I was thinking a lot about what I felt.")
     print(" I wished my mom was driving me home from school, ")
@@ -370,13 +371,13 @@ def next1():
     print("\n I think I closed my eyes for a second.")
     print(" I opened my eyes and somehow, I was under the blanket.")
     print(" How I got under the blanket, maybe I was doing that at my sleep, ")
-    print("but I just closed my eyes for a second.")
-    print("I didn't feel any wind, someone closed my window.")
-    print("I noticed, it was dark outside but still windy.")
-    print("I try to get out, I move myself left and right and I get arms out")
-    print("I try to pull the left corner and right corner,")
-    print("but someone is holding blanket very tight.")
-    print("I can hear metal sounds coming from under my bed!")
+    print(" but I just closed my eyes for a second.")
+    print(" I didn't feel any wind, someone closed my window.")
+    print(" I noticed, it was dark outside but still windy.")
+    print(" I try to get out, I move myself left and right and I get arms out")
+    print(" I try to pull the left corner and right corner,")
+    print(" but someone is holding blanket very tight.")
+    print(" I can hear metal sounds coming from under my bed!")
     print("\n I pull the corner. (left or right)")
 # take input for player answer
     answer = input("# ")
