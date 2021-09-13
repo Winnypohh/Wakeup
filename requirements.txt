@@ -1,1 +1,3 @@
-# Your requirements go here
+Need to add your name.
+age +18
+start a game
