@@ -55,7 +55,7 @@ def second_floor_coridor():
 # player choices
     if answer == "yes":
         # wrong choice start new game
-        game_over(" Freddy got you!! ")
+        play_again(" Freddy got you!! ")
     elif answer == "no":
         # player is pass to next room, guest_room
         guest_room()
@@ -82,7 +82,7 @@ def guest_room():
         lobby()
     elif answer == "stairs":
         # wrong choice start new game
-        game_over(" Freddy got you!!")
+        play_again(" Freddy got you!!")
     else:
         # else is game_over() with a reason
         game_over(" Invalid choice.")
@@ -101,7 +101,7 @@ def lobby():
     # player choices
     if answer == "left":
         # wrong choice start new game
-        game_over(" Freddy never let's you out!!")
+        play_again(" Freddy never let's you out!!")
     elif answer == "right":
         # right choice pass to stop_living_room
         print(" You heading to the kitchen.. ")
@@ -142,7 +142,7 @@ def stop_living_room():
         lobby1()
     elif answer == "no":
         # wrong choice start new game with some text
-        game_over(" Freddy got you again!!")
+        play_again(" Freddy got you again!!")
     else:
         # else is game_over() with a reason
         game_over(" Invalid choice.")
@@ -163,7 +163,7 @@ def lobby1():
         kitchen()
     elif answer == "right":
         # wrong choice start new game with some text
-        game_over(" Freddy got you.")
+        play_again(" Freddy got you.")
     else:
         # else is game_over() with a reason
         game_over(" Invalid choice.")
@@ -186,7 +186,7 @@ def kitchen():
         lobby2()
     elif answer == "no":
         # wrong choice start new game with some text
-        game_over(" Car key is important and Freddy got you in end.")
+        play_again(" Car key is important and Freddy got you in end.")
     else:
         # else is game_over() with a reason
         game_over(" Invalid choice.")
@@ -208,10 +208,10 @@ def lobby2():
         basement()
     elif answer == "right":
         # wrong choice start new game with some text
-        game_over(" Living room hell and Freddy got you.")
+        play_again(" Living room hell and Freddy got you.")
     elif answer == "straight":
         # wrong choice start new game with some text
-        game_over(" You should to know, Freddy waits you there..!!")
+        play_again(" You should to know, Freddy waits you there..!!")
     else:
         # else is game_over() with a reason
         game_over(" Invalid choice.")
@@ -234,7 +234,7 @@ def basement():
     if answer == "straight":
         # wrong choice start new game with some text
         print(" I will be stuck in ropes and other tools.")
-        game_over(" Freddy got you!!")
+        play_again(" Freddy got you!!")
     elif answer == "right":
         print(" I'm closer than ever to get out. Run quickly!!")
 # right choice pass to next room called backdoor
@@ -259,10 +259,10 @@ def backdoor():
     answer = input("# ")
 # player choices
     if answer == "left":
-        # wrong choice start new game with some text
+        # wrong choice with play_again and with some text
         print("\nThe fence is too high and you are stuck.")
         print(" Evil dog and Freddy are here.")
-        game_over(" Freddy got you!!")
+        play_again(" Freddy got you!!")
     elif answer == "right":
         # some text
         print(" I see the car. Run, run quickly!!")
@@ -289,7 +289,7 @@ def car():
     answer = input("# ")
 # player choices
     if answer == "left":
-        # you finished the game takes you back play_again choice
+        # you finished the game takes you back play_again() choice
         print("\n You got to the car and locked the doors.")
         print(" Freddy is gone forever.")
         print("\n You woke up in your ROOM!!")
@@ -323,14 +323,17 @@ def start():
     print(" On the right of the house, we have the drive for car two cars, ")
     print(" but today there is one. Mom is home, I hope.")
     print(" Do we continue? (yes or no)")
-
+# take input for player answer
     answer = input("# ")
-
+# player choices
     if answer == "yes":
+        # takes player to next() text.
         next()
     elif answer == "no":
+        # takes player play_again().
         paly_again()
     else:
+        # takes player to game_over()
         game_over(" Invalid choice.")
 
 
@@ -348,14 +351,17 @@ def next():
     print(" because my mom had opened the window like she always does.")
     print(" Wind blowing and birds are singing ... ")
     print("\n Do we continue? (yes or no)")
-
+# take input for player answer
     answer = input("# ")
-
+# player choices
     if answer == "yes":
+        # takes player to next1() text.
         next1()
     elif answer == "no":
+        # takes player play_again().
         paly_again()
     else:
+        # takes player to game_over()
         game_over(" Invalid choice.")
 
 
