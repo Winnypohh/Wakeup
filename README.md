@@ -9,7 +9,9 @@ Game where you need to follow a interesting story and
 answer the question. Game has a age group 18 and over to add some extra. 
 It's a interesting to read and follow the flow of the game.
 Story is scary and but easy to make you get to the end easy if you read all the story from the start.</p>
-<img src="./workspace/Wakeup/screensize TAG.PNG"> 
+
+<img src="/workspace/Wakeup/screensize TAG.PNG"> 
+
 <h1>HOW TO PLAY.</h1>
 
 <ul>
