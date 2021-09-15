@@ -9,7 +9,7 @@ answer the question. Game has a age group 18 and over to add some extra.
 It's a interesting to read and follow the flow of the game.
 Story is scary and but easy to make you get to the end easy if you read all the story from the start.</p>
 
-![alt Tag](relative/screensize TAG.PNG)
+![screensize](screensize TAG.PNG)
 
 <h1>HOW TO PLAY.</h1>
 
