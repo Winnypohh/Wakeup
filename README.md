@@ -1,8 +1,24 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Welcome Winnypohh,
+Text Adventure Game "Wake up!!!"
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+
+Wake up game is simple text based game where you need to follow a story and
+answer the question. Game has a age group 18 and over to add some more choices.
+Story should make you get out easy if you read all the story from start.
+
+HOW TO PLAY.
+
+First you need to Run Program.
+Next you need to add your name and age if you under age you can't play 
+and you need to Run Program again.
+If you are over 18 it will let you play the game.
+Game starts with story how the day started in the game.
+Every end has a Question.
+Questions are simple correct full answer (yes or no, left or right ...).
+They are provided always end of the text you need only to get end of the game. Any wrong answer takes you back 
+to start the game no need to but your name or age in for play.
+If you make a spelling mistake on answer you need to start again  from start.
 
 ## Reminders
 
