@@ -1,4 +1,4 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+<a href="https://myfirstapptextadventure.herokuapp.com/" rel="nofollow">Click here to view Site.</a>
 
 <h1>Text Adventure Game "Wake up!!!"</h1>
 
@@ -19,5 +19,7 @@ and you need to Run Program again.</p>
 <p>They are provided always end of the text you need only to get end of the game. Any wrong answer takes you back 
 to start the game no need to but your name or age in for play.</p>
 <p>If you make a spelling mistake on answer you need to start again  from start.</p>
+
+<h1>Testing</h1>
 
 ## Have fun and enjoy the GAME!!!
