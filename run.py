@@ -314,7 +314,7 @@ def start():
     print(" When I walked home, I was thinking a lot about what I felt.")
     print(" I wished my mom was driving me home from school, ")
     print(" the car is the safest place for me, ")
-    print("it’s a relaxing and calm place, ")
+    print(" it’s a relaxing and calm place, ")
     print(" if you are driving in the back seat.")
     print("\n I saw my house from a distance, and I felt safer than ever.")
     print(" We have lovely two floor house.")
