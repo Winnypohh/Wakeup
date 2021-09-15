@@ -1,6 +1,6 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-Text Adventure Game "Wake up!!!"
+<h1>Text Adventure Game "Wake up!!!"</h1>
 
 
 Wake up game is simple text based game where you need to follow a story and
