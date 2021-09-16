@@ -1,31 +1,26 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+![Alt Wr](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0aWK_eq1AAh2pWHdZbHjfCzM4itaUZTYp6YA2B5IsLaT2oYmIH0YOHKi3MVnjiBHqq8g&usqp=CAU)
 
-Welcome Winnypohh,
+# Welcome to Text Adventure Game called "Wakeup."
 
-This is the Code Institute student template for deploying your third portfolio project, the Python command-line project. The last update to this file was: **August 17, 2021**
+This is Portfolio Project 3 made on Python. Runs on Code Institute mock and Heroku.
 
-## Reminders
+Game play is simple text based game where you need to read and make a correct decision, and answer a simple question. 
+If you make all the right decision you will finish the game.
 
-* Your code must be placed in the `run.py` file
-* Your dependencies must be placed in the `requirements.txt` file
-* Do not edit any of the other files or your code may not deploy properly
+![Wakeup](images/Wakeup.PNG)
 
-## Creating the Heroku app
+## How to play
 
-When you create the app, you will need to add two buildpacks from the _Settings_ tab. The ordering is as follows:
+* Text Adventure Game is old and easy game. Find more in [Wikipedia](https://en.wikipedia.org/wiki/Text-based_game)
+* The Player needs to enter his name and age(there is a age limit 18+)
+* Player answers simple questions what will be in end of the text.
+* Goal of the game is to get end to the game!
 
-1. `heroku/python`
-2. `heroku/nodejs`
+## Features
 
-You must then create a _Config Var_ called `PORT`. Set this to `8000`
+* Login and age confirmation 18+.
+* Player input 
+*
+*
 
-If you have credentials, such as in the Love Sandwiches project, you must create another _Config Var_ called `CREDS` and paste the JSON into the value field.
 
-Connect your GitHub repository and deploy as normal.
-
-## Constraints
-
-The deployment terminal is set to 80 columns by 24 rows. That means that each line of text needs to be 80 characters or less otherwise it will be wrapped onto a second line.
-
------
-Happy coding!
