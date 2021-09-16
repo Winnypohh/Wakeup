@@ -19,24 +19,37 @@ If you make all the right decision you will finish the game.
 * Player answers simple questions what will be in end of the text.
 * Goal of the game is to get end to the game!
 
-## Features
+## Features.
+![player](images/player.PNG)
+* Player name
 
-* Login and age confirmation 18+.
-* Player input
+![age](images/age.PNG)
+* age confirmation 18+.
 
+![start](images/Playtime.PNG)
+* Player input.
+
+![]()
+* New game.
+
+![]()
+* Wrong answer or input error.
+
+![]()
 # Future features.
 
 Player collects and store something for later ( key, coyne...) 
 Disain back ground and make every text in new page.
 Make some background sounds like door opens or sound of fire.
 
-# Testing
+# Testing.
 
 Tested on PEP8 and didn't get any errors.
 Fixed all the problemes when I got the error ( like cols was over 82 or other unexpected error).
 
 # Bugs.
-
+* Had some issiuse with add pictures to readme file.
+All fixed and problem solved. error was cap in picture name.
 No bugs remaining.
 
 # Validator Testing.
@@ -44,4 +57,4 @@ No bugs remaining.
 Didn't get any errors on pep8online.com testing.
 
 ## Have fun and enjoy the GAME!!!
->>>>>>> 385c121d4fc0670daf45a67121e90b8b36482b4a
+

@@ -333,7 +333,7 @@ def start():
         next()
     elif answer == "no":
         # takes player play_again().
-        paly_again()
+        play_again()
     else:
         # takes player to game_over()
         game_over(" Invalid choice.")
@@ -361,7 +361,7 @@ def next():
         next1()
     elif answer == "no":
         # takes player play_again().
-        paly_again()
+        play_again()
     else:
         # takes player to game_over()
         game_over(" Invalid choice.")
