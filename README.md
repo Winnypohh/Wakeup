@@ -29,7 +29,7 @@ If you make all the right decision you will finish the game.
 ![start](images/Playtime.PNG)
 * Player input.
 
-![newgame](images/Error&Newgame.PNG)
+![new game](images/Error&Newgame.PNG)
 * New game.
 
 ![error](images/Error&Newgame.PNG)
@@ -37,8 +37,8 @@ If you make all the right decision you will finish the game.
 
 # Future features.
 
-Player collects and store something for later ( key, coyne...) 
-Disain back ground and make every text in new page.
+Player collects and store something for later ( key, coin...) 
+Design back ground and make every text in new page.
 Make some background sounds like door opens or sound of fire.
 
 # Testing.
@@ -47,8 +47,8 @@ Tested on PEP8 and didn't get any errors.
 Fixed all the problemes when I got the error ( like cols was over 82 or other unexpected error).
 
 # Bugs.
-* Had some issiuse with add pictures to readme file.
-All fixed and problem solved. error was cap in picture name.
+* Had some issues with add pictures to readme file.
+All fixed and problems solved. error was cap in picture name.
 No bugs remaining.
 
 # Validator Testing.
@@ -60,8 +60,8 @@ Didn't get any errors on pep8online.com testing.
 * Heroku app.
 * Slack team and mentors.
 * Code Institute program.
-* All online availebel research.
-* Youtube
+* All online available research.
+* YouTube
 
 ## Enjoy the GAME!!!
 
