@@ -12,7 +12,7 @@ If you make all the right decision you will finish the game.
 
 ![Wakeup](images/Wakeup.PNG)
 
-## How to play
+## How to ([play](https://myfirstapptextadventure.herokuapp.com/))
 
 * Text Adventure Game is old and easy to play. Find more in [Wikipedia](https://en.wikipedia.org/wiki/Text-based_game)
 * The Player needs to enter his name and age(there is a age limit 18+)

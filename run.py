@@ -33,6 +33,7 @@ def play_again():
         start()
 # if player choice is no or something else, exit() form game
     else:
+        print("Game over Invalid choice.")
         exit()
 
 
