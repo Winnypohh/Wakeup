@@ -14,28 +14,27 @@ If you make all the right decision you will finish the game.
 
 ## How to play
 
-* Text Adventure Game is old and easy game. Find more in [Wikipedia](https://en.wikipedia.org/wiki/Text-based_game)
+* Text Adventure Game is old and easy to play. Find more in [Wikipedia](https://en.wikipedia.org/wiki/Text-based_game)
 * The Player needs to enter his name and age(there is a age limit 18+)
 * Player answers simple questions what will be in end of the text.
 * Goal of the game is to get end to the game!
 
 ## Features.
 ![player](images/player.PNG)
-* Player name
+* Player name:
 
 ![age](images/age.PNG)
-* age confirmation 18+.
+* Age confirmation 18+.
 
 ![start](images/Playtime.PNG)
 * Player input.
 
-![]()
+![newgame](images/Error&Newgame.PNG)
 * New game.
 
-![]()
+![error](images/Error&Newgame.PNG)
 * Wrong answer or input error.
 
-![]()
 # Future features.
 
 Player collects and store something for later ( key, coyne...) 
@@ -56,5 +55,13 @@ No bugs remaining.
 
 Didn't get any errors on pep8online.com testing.
 
-## Have fun and enjoy the GAME!!!
+# Big Thank you:
+
+* Heroku app.
+* Slack team and mentors.
+* Code Institute program.
+* All online availebel research.
+* Youtube
+
+## Enjoy the GAME!!!
 

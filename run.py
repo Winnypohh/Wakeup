@@ -1,5 +1,5 @@
 # Find player name
-playername = input(" Enter playername: ")
+playername = input(" Enter playername: ").capitalize()
 # Print Call player to play
 print(" Let's play: " + playername)
 # player age and underage confermation
@@ -39,7 +39,7 @@ def play_again():
 # game_over function accepts an argument called "reason"
 def game_over(reason):
     print("\n" + reason)
-    print("Game Over!")
+    print(" Game Over!")
     play_again()
 
 
@@ -298,7 +298,7 @@ def car():
     elif answer == "right":
         # wrong choice start new game with some text
         print(" You will sleep forever, in Freddys land")
-        game_over()
+        play_again(" Freddy got you!!")
     else:
         # else is game_over() with a reason
         game_over(" Invalid choice.")
@@ -317,7 +317,7 @@ def start():
     print("it’s a relaxing and calm place, ")
     print(" it’s a relaxing and calm place, ")
     print(" if you are driving in the back seat.")
-    print("\n I saw my house from a distance, and I felt safer than ever.")
+    print(" I saw my house from a distance, and I felt safer than ever.")
     print(" We have lovely two floor house.")
     print(" A fence going all around the house.")
     print(" On the left, if I’m in front of the house is a higher fence, ")
