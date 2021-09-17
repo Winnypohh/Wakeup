@@ -20,26 +20,30 @@ If you make all the right decision you will finish the game.
 * Goal of the game is to get end to the game!
 
 ## Features.
-![player](images/player.PNG)
+
 * Player name:
+![player](images/player.PNG)
 
-![age](images/age.PNG)
 * Age confirmation 18+.
+![age](images/age.PNG)
 
-![start](images/Playtime.PNG)
 * Player input.
+* Need to answer yes or no.
+![start](images/Playtime.PNG)
 
-![new game](images/Error&Newgame.PNG)
 * New game.
+* Need to choose yes or no.
+![new game](images/Error&Newgame.PNG)
 
-![error](images/Error&Newgame.PNG)
 * Wrong answer or input error.
+* Exit player out of game.
+![error](images/Error&Newgame.PNG)
 
 # Future features.
 
-Player collects and store something for later ( key, coin...) 
-Design back ground and make every text in new page.
-Make some background sounds like door opens or sound of fire.
+* Player collects and store something for later ( key, coin...) 
+* Design back ground and make every text in new page.
+* Make some background sounds like door opens or sound of fire.
 
 # Testing.
 
