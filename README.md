@@ -50,16 +50,27 @@ If you make all the right decision you will finish the game.
 Tested on PEP8 and didn't get any errors.
 Fixed all the problemes when I got the error ( like cols was over 82 or other unexpected error).
 
-# Bugs.
-* Had some issues with add pictures to readme file.
+# Bugs
+
+Had some issues with add pictures to readme file.
 All fixed and problems solved. error was cap in picture name.
 No bugs remaining.
 
-# Validator Testing.
+# Validator Testing
 
 Didn't get any errors on pep8online.com testing.
 
-# Big Thank you:
+# Deployment
+
+This MS3 was deployed using Code Institute mock terminal for Heroku.
+
+* Fork or clone this repository.
+* Create first new Heroku app
+* Buildbacks set to Python and NodeJs (they need to be in that oreder)
+* Link the Heroku app to the repository
+* Last thing click to Deploy
+
+# Credits
 
 * Heroku app.
 * Slack team and mentors.
